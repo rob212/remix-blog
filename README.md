@@ -1,6 +1,27 @@
-# Welcome to Remix!
+# Welcome to the Remix Blog
 
-- [Remix Docs](https://remix.run/docs)
+This project was created to allow me to learn about Remix. It makes use of:
+
+- [Remix - full stack web framework](https://remix.run)
+- [Prisma - ORM for Node.js](https://prisma.io)
+
+## Overview 
+
+This is a blog created on Remix App Server with a SQLite db seeded with a user and example posts. The application allows for an authenticated user to create and delete their own posts. 
+
+## Seeding the DB 
+
+```sh
+node prisma/seed.ts
+```
+
+## Viewing the DB 
+
+```sh
+npx prisma studio
+```
+
+This will open a web client on localhost:5555 to view your DB.
 
 ## Development
 

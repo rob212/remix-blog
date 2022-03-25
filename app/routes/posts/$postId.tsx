@@ -1,4 +1,4 @@
-import { Link, useLoaderData, useActionData, redirect } from 'remix'
+import { Link, useLoaderData, redirect } from 'remix'
 import {db} from '~/utils/db.server'
 
 export const loader = async ({ params }) => {

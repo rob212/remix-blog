@@ -23,7 +23,7 @@ function PostItems() {
   return ( 
     <>
       <div className="page-header">
-      <h1>Posts index</h1>
+      <h1>Posts</h1>
         <Link to='/posts/new' className='btn'>
           New Post
 </Link>
